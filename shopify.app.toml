@@ -1,8 +1,8 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 name = "t2-0"
-client_id = "5a1725a1aee2755c49084cf960b85fe8"
-application_url = "https://surround-moderators-formation-rover.trycloudflare.com"
+client_id = "######"
+application_url = "##############"
 embedded = true
 
 [access_scopes]
@@ -11,17 +11,17 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://surround-moderators-formation-rover.trycloudflare.com/auth/callback",
-  "https://surround-moderators-formation-rover.trycloudflare.com/auth/shopify/callback",
-  "https://surround-moderators-formation-rover.trycloudflare.com/api/auth/callback"
+  "####################",
+  "####################",
+  "####################"
 ]
 
 [webhooks]
-api_version = "2023-10"
+api_version = "######"
 
 [pos]
 embedded = false
 
 [build]
 automatically_update_urls_on_dev = true
-dev_store_url = "quickstart-cda87fd0.myshopify.com"
+dev_store_url = "#####################"
